@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scwitch e Case</title>
+</head>
+
+<body>
+    <script>
+        let permissao; //comum, gerente, diretor
+
+        switch (permissao) {
+            case 'comum':
+            console.log('usuário comum');
+            break;
+
+            case 'gerente': {
+            console.log('usuário gerente');
+            break;
+            
+            case'diretor':
+            console.log('usuário diretor');
+            break;
+
+            default:
+            console.log('Usuário não reconhecido!');
+        }
+    </script>
+</body>
+
+</html>

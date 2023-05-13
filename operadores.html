@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores</title>
+</head>
+
+<body>
+    <script>
+        //Operadores Aritiméticos (matemáticos) | +,-,*,/,**
+        let salario = 100;
+
+        console.log(salario + salario)
+        console.log(salario - salario)
+        console.log(salario * salario)
+        console.log(salario / salario)
+        console.log(5 ** salario)
+
+        // ++, -- emcremento é decremeto
+
+        let idade = 18
+
+        console.log(idade--)
+        console.log(idade++)
+
+        // Operadores atribuição  | += e -=
+        let valorTeclado = 100;
+        console.log(valorTeclado);
+        valorTeclado -= valorTeclado
+        valorTeclado += valorTeclado
+
+        //Operadores de comparação | == igualdade estrita | == igualdade solta
+
+        console.log(1 === 1) //usar sempre
+
+        console.log(1 == 1)
+
+        //Operador ternario | ? se | : então
+        let pontos = 100;
+        let tipo = pontos > 100 ? 'premium' : 'comum';
+        console.log(tipo)
+
+        //Operador Logico 
+        // && (e) retorna TRUE se os dois operandos forem true |
+        console.log(true && false)
+
+        // || (ou) retorna TRUE se um dos operandos forem true |
+        console.log(true || false)
+
+        // Operador NOT !
+        let candidatoRecusado = !podeAplicar;
+    </script>
+</body>
+
+</html>
